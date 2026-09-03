@@ -1,10 +1,9 @@
 import Navbar from "./assets/components/Navbar";
-import Hero from "./assets/components/hero";
-import About from "./assets/components/about";
+import Hero from "./assets/components/Hero";
 import Technologies from "./assets/components/Technologies";
+import About from "./assets/components/About";
 import Projects from "./assets/components/Projects";
 import Contact from "./assets/components/Contact";
-import Footer from "./assets/components/Footer";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
 
         <Contact />
 
-        <Footer />
       </main>
     </>
   );
